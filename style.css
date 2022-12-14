@@ -1,0 +1,1324 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
+
+
+/* ......................Zamir - Inseption..................... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.program__cours {
+  align-items:center;
+}
+
+main {
+  width: 1440px;
+  margin: auto;
+}
+
+.container__course {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.course__head {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+
+  color: #000000;
+  margin-bottom: 95px;
+  margin-left: 122px;
+}
+
+.logo {
+  width: 399px;
+  height: 328px;
+
+  background: #FFFFFF;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+
+  margin: 41px 37px;
+
+}
+
+.logo__image {
+  width: 399px;
+  height: 160px;
+}
+
+h4 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 11px 14px 32px 20px;
+
+  color: #000000;
+}
+
+.logo__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 32px 15px 23px 19px;
+  color: #000000;
+}
+
+.last {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 11px 14px 1px 20px;
+
+  color: #000000;
+}
+
+
+.logo__text__last {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  margin: 1px 15px 23px 19px;
+  color: #000000;
+}
+
+/* ............................CELLAR.............................. */
+
+.cellar {
+  width: 1440px;
+  height: 780px;
+
+  background: #EFEFEF;
+}
+
+.cellar_head {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+
+  color: #000000;
+
+  padding: 91px 331px 34px 122px;
+}
+
+.container__cellar {
+  width: 791px;
+  height: 451px;
+
+  background: #FFFFFF;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  margin: 34px 523px 111px 122px;
+  padding: 40px 46px 10px 45px;
+}
+
+.cellar_text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #000000;
+}
+
+.logo__page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cellar__head4 {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 30px ;
+
+  color: #000000;
+
+}
+
+.image__girl {
+  width: 190px;
+  height: 169px;
+}
+
+.image__fb {
+  margin-left: 20px;
+  height: 32px;
+  width: 32px;
+}
+
+/* .....................START COURSE....................... */
+
+
+.start__course {
+  width: 1440px;
+  height: 780px;
+
+  background: #9DC9C8;
+}
+
+.start__date {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  padding: 179px 410px 54px 122px;
+  color: #000000;
+}
+
+.start__name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  padding: 54px 1148px 1px 122px;
+  color: #000000;
+}
+
+.start__price {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  padding: 1px 837px 44px 122px;
+  color: #000000;
+}
+
+.start__list {
+  display: flex;
+  padding-left: 122px;
+}
+
+.start__second {
+  padding-left: 70px;
+}
+
+.start__description {
+  padding-top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+
+.start__text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+}
+
+
+/* ....................Media for Tablet....................... */
+
+
+/* .................Program-Course................. */
+
+@media screen and (992px <= width <= 1440px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+  
+  .program__cours {
+    align-items:center;
+  }
+  
+  main {
+    width: 834px;
+  }
+  
+  .container__course {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .course__head {
+    font-size: 34px;
+
+    margin-bottom: 55px;
+    margin-left: 70px;
+  }
+  
+  .logo {
+    width: 231.09px;
+    height: 189.97px;
+    
+    background: #FFFFFF;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+  
+    margin: 23.75px 21.43px;
+  
+  }
+  
+  .logo__image {
+    width: 231.09px;
+    height: 92.67px;
+  }
+  
+  h4 {
+    font-size: 17px;
+    margin: 6.37px 8.11px 18.53px 11.58px;
+  
+    color: #000000;
+  }
+  
+  .logo__text {
+    font-size: 14px;
+    margin: 18.53px 8.69px 13.32px 11px;
+    color: #000000;
+  }
+  
+  .last {
+    font-size: 17px;
+    margin: 9.27px 8.11px 1px 11.58px;
+  
+    color: #000000;
+  }
+  
+  
+  .logo__text__last {
+    font-size: 14px;
+    margin: 1px 8.69px 13.32px 11px;
+    color: #000000;
+  }
+
+
+
+/* .................Cellar................. */
+
+.cellar {
+  width: 834px;
+  height: 451.75px;
+
+  background: #EFEFEF;
+}
+
+.cellar_head {
+  font-size: 32px;
+
+  color: #000000;
+
+  margin: 52.7px 0px 19.69px 0px;
+  padding: 52.7px 191.7px 19.69px 70.66px;
+}
+
+.container__cellar {
+  width: 458.12px;
+  height: 261.2px;
+  
+  background: #FFFFFF;
+  box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+  border-radius: 17.375px;
+
+  margin: 19.69px 302.9px 64.29px 72.97px;
+  padding: 40px 46px 10px 45px;
+}
+
+.cellar_text {
+  font-size: 12px;
+}
+
+.logo__page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cellar__head4 {
+  font-size: 17px;
+  margin-top: 28.29px ;
+
+}
+
+.image__girl {
+  width: 110.04px;
+  height: 97.88px;
+}
+
+.image__fb {
+  margin-left: 17.38px;
+  width: 18.53px;
+  height: 17.95px;
+}
+
+
+/* .................Start-Course................. */
+
+.start__course {
+  width: 834px;
+  height: 451.75px;
+
+  background: #9DC9C8;
+}
+
+.start__date {
+  font-size: 32px;
+  padding: 103.67px 237.46px 31.27px 70.66px;
+  color: #000000;
+}
+
+.start__name {
+  font-size: 14px;
+  padding: 31.27px 664.88px 1px 70.66px;
+
+}
+
+.start__price {
+  font-size: 46px;
+  padding: 1px 484.76px 24.07px 70.66px;
+
+}
+
+.start__list {
+  display: flex;
+  padding-left: 70.66px;
+}
+
+.start__second {
+  padding-left: 40.54px;
+}
+
+.start__description {
+  padding-top: 5.21px;
+  font-size: 14px;
+}
+
+
+.start__text {
+  font-size: 14px;
+}
+
+}
+
+
+
+/* ....................Media for Mobile....................... */
+
+@media screen and (320px <=width <=991px) {
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+  }
+  
+  .program__cours {
+    align-items:center;
+  }
+  
+  main {
+    width: 375px;
+  }
+  
+  .container__course {
+    display: flex;
+    flex-direction: column;
+    padding: 0 65px;
+  }
+  
+  
+  .course__head {
+    font-size: 26px;
+    margin: 18px;
+    padding-left: 65px;
+  }
+  
+  .logo {
+    width: 185.92px;
+    height: 152.84px;
+    
+    background: #FFFFFF;
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+  
+  }
+  
+  .logo__image {
+    width: 185.92px;
+    height: 74.56px;
+  }
+  
+  h4 {
+    font-size: 14px;
+    margin: 5.13px 6.52px 14.91px 9.32px;
+  }
+  
+  .logo__text {
+    font-size: 12px;
+    margin: 15.15px 6.84px 10.48px 9.32px;
+  }
+  
+  .last {
+    font-size: 14px;
+    margin: 2px 6.52px 1px 9.32px;
+  }
+  
+  
+  .logo__text__last {
+    font-size: 12px;
+    margin: 5px 6.99px 10.72px 9.32px;
+    color: #000000;
+  }
+
+
+
+/* .................Cellar................. */
+
+.cellar {
+  width: 375px;
+  height: 423px;
+
+  background: #EFEFEF;
+}
+
+.cellar_head {
+  font-size: 26px;
+
+  color: #000000;
+
+  margin: 42px 0px 11px 0px;
+  padding: 42px 83px 11px 36px;
+}
+
+.container__cellar {
+  width: 308px;
+  height: 248px;
+  
+  background: #FFFFFF;
+  box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+  border-radius: 13.9792px;
+
+  margin: 11px 32px 53px 36px;
+  padding: 18.47px 21px 21.52px 21px;
+}
+
+.cellar_text {
+  font-size: 10px;
+}
+
+.logo__page {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cellar__head4 {
+  font-size: 14px;
+  margin-top: 15px ;
+
+}
+
+.image__girl {
+  margin-left: 13.63px;
+  width: 80px;
+  height: 84px;
+}
+
+.image__fb {
+  margin-left: 10.63px;
+  width: 14.91px;
+  height: 17.2px;
+}
+
+
+/* .................Start-Course................. */
+
+.start__course {
+  width: 375px;
+  height: 363px;
+
+  background: #9DC9C8;
+}
+
+.start__date {
+  font-size: 26px;
+  padding: 62px 117px 22.33px 34px;
+  color: #000000;
+}
+
+.start__name {
+  font-size: 12px;
+  padding: 22.33px 261.94px 1px 34px;
+
+}
+
+.start__price {
+  font-size: 37px;
+  padding: 1px 117.02px 21.53px 34px;
+
+}
+
+.start__list {
+  display: flex;
+  padding-left: 34px;
+}
+
+.start__second {
+  padding-left: 9px;
+}
+
+.start__description {
+  padding-top: 4.56px;
+  width: 160px;
+  font-size: 9px;
+}
+
+
+.start__text {
+  font-size: 12px;
+}
+
+
+}
+
+/* ......................Zamir - The End..................... */
+
+
+/* ......................Senan - Inseption..................... */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 55px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url(Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body {
+  font-family: "Roboto-Medium";
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* ABOUT COURSE  */
+
+.about-course h2 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.about-main {
+  margin-bottom: 60px;
+}
+
+.about-course-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 164px;
+  margin-bottom: 98px;
+}
+
+.about-course-text {
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 20px;
+}
+
+
+.about-timeline {
+  display: flex;
+  align-items: center;
+  gap: 132px;
+}
+
+.about-timeline-img {
+  margin-left: 20px;
+}
+
+.about-timeline-boxes {
+  display: flex;
+  gap: 95px;
+}
+
+.about-timing {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.about-timing-info {
+  font-size: 18px;
+}
+
+/* FORMAT SECTION  */
+.format-main {
+  margin-bottom: 170px;
+  margin-left: 20px;
+}
+
+.format-main h2 {
+  margin-left: 0;
+  margin-bottom: 100px;
+}
+
+.format-study-boxes {
+  display: flex;
+  gap: 120px;
+}
+
+.format-study {
+  font-weight: 700;
+  font-size: 25px;
+  color: #1e4681;
+}
+
+.format-study-info {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
+
+/* LEARN SECTION  */
+ul {
+  font-size: 24px;
+  line-height: 150%;
+  margin-left: 20px;
+}
+
+.learn-section {
+  margin-bottom: 240px;
+}
+
+.learn {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 101.38%;
+  color: #000000;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+@media screen and (992px <=width <=1440px) {
+  .container {
+    width: 750px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .about-course h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+  }
+
+  .about-course-text {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .about-course-details {
+    gap: 110px;
+  }
+
+  .about-course-details img {
+    width: 181px;
+    height: 182px;
+  }
+
+  .about-main {
+    margin-bottom: 93px;
+  }
+
+  .about-timeline {
+    gap: 76px;
+  }
+
+  .about-timeline img {
+    width: 134px;
+  }
+
+  .about-timeline-boxes {
+    gap: 55px;
+  }
+
+  .about-timing {
+    font-size: 15px;
+  }
+
+  .about-timing-info {
+    font-size: 11px;
+  }
+
+  .format-main h2 {
+    font-size: 32px;
+    margin-bottom: 70px;
+  }
+
+  .format-main {
+    margin-bottom: 144px;
+  }
+
+  .format-study-boxes {
+    gap: 46px;
+  }
+
+  .format-study {
+    font-size: 15px;
+  }
+
+  .format-study-info {
+    font-size: 11px;
+  }
+
+  ul {
+    font-size: 14px;
+  }
+
+  .learn-section {
+    margin-bottom: 140px;
+  }
+
+  .learn {
+    font-size: 32px;
+  }
+
+}
+
+@media screen and (320px <=width <=991px) {
+  .container {
+    width: 300px;
+  }
+
+
+  .about-main {
+    margin-bottom: 70px;
+  }
+
+  .about-course h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .about-course-text {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 18px;
+  }
+
+  .about-course-details img {
+    width: 170px;
+    height: 160px;
+    margin: auto;
+  }
+
+  .about-course-details {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 45px;
+  }
+
+  .about-timeline img {
+    display: none;
+  }
+
+  .about-timeline {
+    gap: 0;
+  }
+
+  .about-timeline-boxes {
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-left: 20px;
+  }
+
+  .about-timing {
+    font-size: 12px;
+  }
+
+  .about-timing-info {
+    font-size: 10px;
+  }
+
+  .format-main h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+
+  .format-main {
+    flex-direction: column;
+    margin-bottom: 73px;
+  }
+
+  .format-study-boxes {
+    gap: 25px;
+    flex-direction: column;
+  }
+
+  .format-study {
+    font-size: 12px;
+  }
+
+  .format-study-info {
+    font-size: 10px;
+  }
+
+  ul {
+    font-size: 12px;
+  }
+
+  .learn-section {
+    margin-bottom: 85px;
+  }
+
+  .learn {
+    font-size: 26px;
+  }
+
+
+}
+
+/* .....................Senan - The End.......................... */
+
+
+/* .....................Yusif - Inseption.......................... */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__list {
+  list-style-position: inside;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.header__link {
+  color: black;
+  text-decoration: none;
+}
+
+.header_container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* HEADER  */
+.home-main {
+  margin-bottom: 173px;
+}
+
+.logo__header {
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.home-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-info {
+  display: flex;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.icon-img {
+  width: 22px;
+  height: 21px;
+}
+
+.info-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.timeline{
+  width: 50%;
+  align-self: flex-start;
+  display: flex;
+}
+
+.timeline ul{
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.timeline ul li{
+  list-style: none;
+  width: 145px;
+  margin: 0 20px 0 5px;
+  box-sizing: content-box;
+}
+
+.main-2 h1 {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.home-foot {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.icon-item {
+  font-size: 20px;
+}
+
+.blue {
+  width: 483px;
+  background: #1e4681;
+  border-radius: 5px;
+  margin: auto;
+  margin-top: 66px;
+  padding: 19px 27px 20px 26px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.name {
+  font-size: 20px;
+  text-align: right;
+  color: #ffffff;
+}
+
+.last__page {
+  background-color: black;
+  color: white;
+  padding: 50px 0px;
+  width: 1440px;
+  height: 390px;
+  margin: auto;
+}
+
+.sosial{
+  width: 200px;
+}
+
+.sosial ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 70px;
+}
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+.footer-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right{
+ margin: 0 100px;
+}
+
+.footer-left {
+  display: flex;
+  margin-left: 70px;
+}
+
+.footer-right p {
+  font-size: 25px;
+  line-height: 101.38%;
+  margin-bottom: 15px;
+text-align: start;
+}
+
+.footer-right i {
+  margin-right: 5px;
+}
+
+.sync {
+  margin-top: 150px;
+  margin-left: 70px;
+  font-size: 18px;
+  line-height: 101.38%;
+}
+
+
+@media screen and (992px <= width <= 1440px) {
+  .header_container {
+    width: 750px;
+  }
+
+  .timeline {
+  width: 115px;
+  display: flex;
+  align-self: flex-start;
+  }
+
+  .timeline li {
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.timeline ul {
+  width: 320px;
+}
+
+  .timeline span {
+  font-size: 12px;
+}
+
+  .blue {
+    margin-top: 40px;
+  }
+
+  .logo__header {
+    width: 65px;
+    height: 38px;
+  }
+  .icon-img {
+    width: 12px;
+    height: 12px;
+  }
+
+  .icon-item {
+    font-size: 12px;
+  }
+
+  .main-2 h1 {
+    font-size: 46px;
+    width: 364px;
+  }
+
+  .info-2 {
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .home-foot {
+    font-size: 12px;
+  }
+
+  .home-main {
+    margin-bottom: 100px;
+  }
+
+  .director {
+    width: 190px;
+    height: 206px;
+  }
+
+  .blue {
+    width: 280px;
+    font-size: 14px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .last__page {
+    width: 834px;
+    height: 225px;
+  }
+
+  .footer-logo {
+    margin-bottom: 17px;
+    align-self: flex-start;
+    width: 66px;
+    height: 39px;
+  }
+
+.footer-right{
+  align-self: flex-start
+}
+
+  .footer-right p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .sosial{
+    width: 170px;
+  }
+
+  .sync {
+    margin-top: 80px;
+    font-size: 10px;
+  }
+}
+@media screen and (320px <= width <= 991px) {
+  .header_container {
+    width: 300px;
+  }
+
+  .logo__header {
+    width: 52px;
+    height: 30px;
+    margin-bottom: 44px;
+  }
+
+    .timeline li {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .timeline ul {
+    width: 250px;
+    justify-content: space-around;
+  }
+
+  .timeline ul li {
+    list-style: none;
+    width: 80px;
+    margin: 0px;
+    box-sizing: content-box;
+  }
+
+    .timeline span {
+    font-size: 10px;
+  }
+  
+
+  .info-2 {
+    flex-direction: column;
+  }
+
+  .director {
+    margin-left: auto;
+  }
+
+  .icon-img {
+    width: 9px;
+    height: 10px;
+  }
+
+  .icon-item {
+    font-size: 10px;
+  }
+
+  .main-2 h1 {
+    font-size: 37px;
+  }
+
+  .home-foot {
+    font-size: 10px;
+  }
+
+  .director {
+    width: 160px;
+    height: 150px;
+  }
+
+  .main-2 {
+    flex-direction: column;
+  }
+
+  .blue {
+    width: 225px;
+    font-size: 11px;
+    margin: 0;
+    margin-top: 38px;
+  }
+
+  .home-main {
+    margin-bottom: 75px;
+  }
+
+  .name {
+    font-size: 10px;
+  }
+  
+  .last__page {
+    padding: 25px 0px;
+    width: 375px;
+    height: 250px;
+  }
+
+  .footer-main {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .last__page .container {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-bottom: 12px;
+    width: 54px;
+  }
+
+  .footer-right  {
+  margin: 0;
+  margin-left: 70px;
+  }
+
+  .footer-right p {
+    font-size: 10px;
+    margin-bottom: 5px;
+  }
+
+  .sosial{
+    font-size: 12px;
+    width: 150px;
+  }
+
+  .sync {
+    margin-top: 40px;
+    font-size: 12px;
+  }
+}
+
+
+/* .....................Yusif - The End.......................... */
+
